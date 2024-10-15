@@ -1,0 +1,24 @@
+1st Start Pannropo backend folder create pannitu 
+terminal la = npm init -y
+next express package install pannanum npm i express
+next backend folder kulla index.js file la create pannanum
+next nodemon install pannanum = npm i nodemon -D
+next package.json la scriptes sa change pannanum
+"scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+Apro terminal npm run dev kudukanum
+apro package.jsxon la type:"module" kudukanum en na nama library import fromat la use pannarathuku 
+ithey commonjs kudutha required nu use panuvom like
+const mongoose = require('mongoose'); ithu common js format
+import multer from "multer"; ithu module format
+
+
+express rathu tha inga server use pannrom
+
+next dotenv pakage intsall pannanum = npm i donenv
+
+next mongoose package install pannanum = npm i mongoose
+install panna kapprom mongoose app kulla poitu new connection kudatha oru url atha copy panni 
+.env file paste pannanum db=""apro end la /slash potu db name kudukanum
